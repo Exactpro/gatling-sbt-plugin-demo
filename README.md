@@ -1,7 +1,7 @@
 Gatling's SBT plugin demo
 =========================
 
-A simple project showing how to configure and use Gatling's SBT plugin to run Gatling simulations. 
+Configure and use [gatling-sbt plugin](https://github.com/gatling/gatling-sbt) to run Gatling simulations.
 
 This project uses SBT 1.0.4, which is available [here](http://www.scala-sbt.org/download.html).
 
@@ -9,7 +9,7 @@ Get the project
 ---------------
 
 ```bash
-git clone https://github.com/gatling/gatling-sbt-plugin-demo.git && cd gatling-sbt-plugin-demo
+git clone https://github.com/gatling/gatling-sbt-plugin-demo.git _my-dir_ && cd _my-dir_
 ```
 
 Start SBT
