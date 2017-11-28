@@ -9,7 +9,7 @@ Get the project
 ---------------
 
 ```bash
-git clone https://github.com/gatling/gatling-sbt-plugin-demo.git _my-dir_ && cd _my-dir_
+git clone https://github.com/gatling/gatling-sbt-plugin-demo.git $dir && cd $dir
 ```
 
 Start SBT
