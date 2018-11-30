@@ -8,9 +8,8 @@ object IDEPathHelper {
 
 	val simSourcesDirectory 	= projectRootDir / "src" / "test" / "scala"
 	val simResourcesDirectory = projectRootDir / "src" / "test" / "resources"
-	val simDataDirectory 				= simResourcesDirectory / "data"
-	val simBodiesDirectory 			= simResourcesDirectory / "bodies"
-
+//val simDataDirectory 				= simResourcesDirectory / "data"
+//val simBodiesDirectory 			= simResourcesDirectory / "bodies"
 	val buildTargetDirectory 	= projectRootDir / "target"
 	val buildBinariesDirectory 	= buildTargetDirectory / "test-classes"
 	val simResultsDirectory 		= buildTargetDirectory / "gatling"
