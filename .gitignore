@@ -1,7 +1,7 @@
 target
 .idea
-.settings
-.classpath
-.project
+/.settings
+/.classpath
+/.project
 /bin/
 /.cache-tests
