@@ -7,7 +7,7 @@ object Engine extends App {
 		.resourcesDirectory(IDEPathHelper.simResourcesDirectory.toString)
 		.resultsDirectory(IDEPathHelper.simResultsDirectory.toString)
 		.binariesDirectory(IDEPathHelper.buildBinariesDirectory.toString)
-	.runDescription("from IDE").simulationClass("d35.U1R1")
+	.runDescription("from IDE").simulationClass("computerdatabase.BasicSimulation")
 
 	Gatling.fromMap(props.build)
 }
