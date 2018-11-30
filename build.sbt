@@ -1,7 +1,7 @@
 enablePlugins(GatlingPlugin)
 
-scalaVersion := "2.12.4"
-val gatlingVer = "3.0.0-SNAPSHOT"
+scalaVersion := "2.12.7"
+val gatlingVer = "3.0.1"
 
 scalacOptions := Seq(
   "-encoding", "UTF-8", "-target:jvm-1.8", "-deprecation",

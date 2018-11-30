@@ -4,11 +4,10 @@ import io.gatling.core.config.GatlingPropertiesBuilder
 object Engine extends App {
 
 	val props = new GatlingPropertiesBuilder()
-		.dataDirectory(IDEPathHelper.simDataDirectory.toString)
+		.resourcesDirectory(IDEPathHelper.simResourcesDirectory.toString)
 		.resultsDirectory(IDEPathHelper.simResultsDirectory.toString)
-		.bodiesDirectory(IDEPathHelper.simBodiesDirectory.toString)
 		.binariesDirectory(IDEPathHelper.buildBinariesDirectory.toString)
-	.runDescription("from IDE").simulationClass("d35.BasicSim")
+	.runDescription("from IDE").simulationClass("d35.U1R1")
 
 	Gatling.fromMap(props.build)
 }
