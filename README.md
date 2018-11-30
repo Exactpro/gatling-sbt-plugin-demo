@@ -32,7 +32,7 @@ Run a single simulation
 > gatling:testOnly computerdatabase.BasicSimulation
 ```
 
-*Note*: in command line it's _sbt "gatling:testOnly computerdatabase.BasicSimulation"_
+**Note**: in command line it's **sbt "gatling:testOnly computerdatabase.BasicSimulation"**
 
 List all tasks
 --------------------
