@@ -58,5 +58,5 @@ Probably at the same time I'd found gatling-sbt-plugin-demo and found it [mallea
 It turned out it was easy to convince SBT to use 3.0.0-SNAPSHOT too, and in Nov. 28 this repo was published and
 [announced](https://groups.google.com/forum/#!topic/gatling/6DwwJ9kfLGs).
 
-Unfortunately it went unnoticed [until 2018.01.02](gatling/gatling/#3406) that since Nov. 17, 2017 io.gatling.highcharts:gatling-charts-highcharts was not updating.
+Unfortunately it went unnoticed [until 2018.01.02](gatling/gatling#3406) that since Nov. 17, 2017 io.gatling.highcharts:gatling-charts-highcharts was not updating.
 I've re-targeted build.sbt to depend on 3.0.1 release and may reconsider SNAPSHOT later.
