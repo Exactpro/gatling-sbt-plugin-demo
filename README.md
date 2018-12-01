@@ -54,7 +54,7 @@ Additionally I got used to developing and running scenarios with IDEA and for th
 [instruction](https://gatling.io/docs/current/extensions/maven_archetype/).
 Without success I had tried to modify pom.xml to add Sonatype OSS repo.
 
-Probably at the same time I'd found gatling-sbt-plugin-demo and found it [malleable](a5df8bef1) to IDE-centered development support.
+Probably at the same time I'd found gatling-sbt-plugin-demo and found it [malleable](a5df8be) to IDE-centered development support.
 It turned out it was easy to convince SBT to use 3.0.0-SNAPSHOT too, and in Nov. 28 this repo was published and
 [announced](https://groups.google.com/forum/#!topic/gatling/6DwwJ9kfLGs).
 
