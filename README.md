@@ -49,7 +49,7 @@ Why this fork?
 
 In a few words: to run 3.0.x-SNAPSHOT, now it can only do RELEASE, which makes it [redundant](https://github.com/gatling/gatling-maven-plugin-demo).
 
-In November 2017 I wanted to ensure my scenarios were compatible with [Gatling 3 API](gatling/gatling#3071) which was to appear in 3.0.0-SNAPSHOT.
+In November 2017 I wanted to ensure my scenarios were compatible with [Gatling 3 API](https://github.com/gatling/gatling/issues/3071) which was to appear in 3.0.0-SNAPSHOT.
 Additionally I got used to developing and running scenarios with IDEA and for that I'd used maven-plugin-demo per Gatling
 [instruction](https://gatling.io/docs/current/extensions/maven_archetype/).
 Without success I had tried to modify pom.xml to add Sonatype OSS repo.
